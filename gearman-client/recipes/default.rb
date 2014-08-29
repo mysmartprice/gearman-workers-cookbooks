@@ -5,7 +5,7 @@
 module_name = "gearman"
 
 execute "install_php_#{module_name}_module" do
-  command "pecl install #{module_name}"
+  command "pecl -s install #{module_name}"
   action :run
 end
 
