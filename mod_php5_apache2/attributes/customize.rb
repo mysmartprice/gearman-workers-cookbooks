@@ -1,5 +1,6 @@
 normal[:mod_php5_apache2][:packages] = [ 
     'php5-xsl',
+    'php5-imagick',
     'php5-curl',
     'php5-xmlrpc',
     'php5-sqlite',
